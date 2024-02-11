@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-function realizarMovimiento(indice) {
+function realizarMovimiento(indice) {""
     if (tablero[indice] === '') {
         tablero[indice] = jugadorActual;
         renderizarTablero();
